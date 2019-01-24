@@ -1,4 +1,21 @@
 body {
 	display: grid;
-	grid-template-columns: 2fr 8fr
+	grid-template-columns: 2fr 8fr;
+}
+.list{
+	background-color: RGB(0, 0, 160);	
+}
+.book-title{
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+	color: RGB(240,240,255);
+}
+.book-title:hover{
+	cursor: pointer;
+	color: RGB(255,255,225);
+	background-color: RGB(60, 60, 200);
+}
+.show-panel{
+	margin-top: 1.5rem;
+	padding-left: 1.5rem;
 }
